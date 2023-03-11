@@ -100,7 +100,6 @@ func VerificaSitePorId(c *gin.Context) {
 }
 
 func DeleteSiteFromList(c *gin.Context) {
-	fmt.Println("aaaaaaaaaa")
 	var foundWebsite models.Website
 	var index int = 0
 	id, _ := strconv.Atoi(c.Params.ByName("id"))

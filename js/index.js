@@ -34,8 +34,13 @@ function deleteWebsite(idWebsite) {
     fetch('/remove/' + idWebsite, { method: 'DELETE', redirect: 'error' })
         .then(response => response.json())
         .then(data => console.log(data))
-        .then(() => window.location.reload())
-        .then(() => window.location.href = '/');
+        .then(() => setTimeout(refreshPage(), 1000));
+}
+    
+function refreshPage() {
+    history.go(0);
+    window.location.reload();
+    window.location.href = window.location.href;
 }
 
 function verifyErrorInJsonResponse() {

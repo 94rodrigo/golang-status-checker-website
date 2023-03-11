@@ -1,0 +1,47 @@
+body {
+  background-color: #444;
+  color: #ffffff;
+}
+body .input-group.mb-3 {
+  width: 70%;
+  margin: 50px auto auto;
+}
+body #form-url {
+  display: flex;
+  flex: auto;
+}
+body #form-url .form-control {
+  flex-basis: 85%;
+}
+body #form-url button {
+  flex-basis: 15%;
+  align-self: flex-start;
+}
+body .table.table-striped {
+  width: 70%;
+  margin: 50px auto auto;
+  position: relative;
+  color: #ffffff;
+}
+body .table.table-striped #col-website-head {
+  width: 70%;
+}
+body .table.table-striped #col-delete-head {
+  width: 10%;
+}
+body .table.table-striped tbody td {
+  color: #ffffff;
+}
+body .table.table-striped tbody td a {
+  color: #ffffff;
+}
+body .table.table-striped .icn-td {
+  width: 24px;
+}
+body .table.table-striped .icn-td:hover {
+  cursor: pointer;
+}
+
+#toast-message {
+  color: #444;
+}/*# sourceMappingURL=index.css.map */
